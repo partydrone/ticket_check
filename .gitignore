@@ -1,0 +1,9 @@
+.DS_Store
+config/database.yml
+db/*.sqlite3
+db/schema.rb
+log/*.log
+mkmf.log
+public/assets/**/*
+tmp/restart.txt
+tmp/**/*
