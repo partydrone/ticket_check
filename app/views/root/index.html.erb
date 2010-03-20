@@ -1,2 +1,6 @@
 <h1>Root#index</h1>
 <p>Find me in app/views/root/index.html.erb</p>
+<% form_tag '/tickets', :method => :post do -%>
+	<%= text_field_tag 'order_id', 'Enter your ticket number' %>
+	<%= submit_tag 'Go' %>
+<% end -%>
