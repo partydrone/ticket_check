@@ -20,8 +20,13 @@ del { text-decoration: line-through; }
 table { border-collapse: collapse; border-spacing: 0; }
 
 
+/* LAYOUT */
+
+body { background-color: #ffc; border: 1px solid #cc9; margin: 20px auto; padding: 20px; width: 760px; }
+
+
 /* TYPOGRAPHY */
-body { font: 12px/1.5 Georgia, serif; }
+body { color: #663; font: 12px/1.5 Georgia, serif; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.25em; }
