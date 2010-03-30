@@ -1,10 +1,10 @@
 require 'rt_capistrano'
 
-set :site,         "8898"                     # change to Miles' server info
+set :site,         "82472"
 set :application,  "brandieframpton2010"
 set :webpath,      "brandieframpton2010.com"
-set :domain,       "eyequeue.us"              #
-set :user,         "serveradmin%eyequeue.us"  # change to Miles' server info
+set :domain,       "whiteboxmedia.com"              #
+set :user,         "serveradmin%whiteboxmedia.com"  # change to Miles' server info
 set :password,     "dogVE13@"                 #
 set :use_sudo,      false
 
